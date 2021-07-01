@@ -9,9 +9,9 @@
   <section class="mod-form" v-else>
     <div class="ui-border-b" v-if="showFrame">
       <el-form label-width="">
-        <el-form-item :label="$t('fps')">
+        <!-- <el-form-item :label="$t('fps')">
           <el-input v-model.number="frameRate" type="number" max="100" min="0" size="mini"  placeholder="24"></el-input>
-        </el-form-item>
+        </el-form-item> -->
         <el-form-item :label="$t('loop')">
           <el-input v-model.number="loop" type="number" size="mini" placeholder="0"></el-input>{{ $t('times') }}
           <i>({{ $t('loopTips') }})</i>
@@ -21,7 +21,7 @@
     <div class="ui-border-b mod-output">
       <el-form label-width="">
         <el-form-item  :label="$t('outputName')" class="suffix">
-          <el-input v-model="outputName" size="mini" placeholder="output-ispt"></el-input>
+          <el-input v-model="outputName" size="mini" placeholder="output-mgtv"></el-input>
         </el-form-item>
         <p>{{ $t("outputFormat") }}</p>
         <el-checkbox-group v-model="formatList" :min="1">

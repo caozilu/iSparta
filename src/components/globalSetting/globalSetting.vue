@@ -11,9 +11,9 @@
           <el-option label="English" value="en-us"></el-option>
         </el-select>
       </el-form-item>
-      <el-form-item :label="$t('fps')" label-width="formLabelWidth">
+      <!-- <el-form-item :label="$t('fps')" label-width="formLabelWidth">
         <el-input type="number" v-model="setting.options.frameRate" max="100" min="0" size="mini" auto-complete="off"></el-input>
-      </el-form-item>
+      </el-form-item> -->
       <el-form-item :label="$t('loop')" label-width="formLabelWidth">
         <el-input type="number" v-model="setting.options.loop" size="mini" auto-complete="off"></el-input>{{ $t('times') }}
         <i>({{ $t('loopTips')}})</i>

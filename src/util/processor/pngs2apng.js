@@ -29,7 +29,7 @@ export default function (item, store, locale) {
   return action.exec(action.bin('apngasm'), [
     path.join(item.basic.tmpOutputDir, item.options.outputName + '.png'),
     path.join(tmpDir, firstPNG),
-    '1 ' + item.options.frameRate,
+    '5 ' + item.options.frameRate,
     '-l' + item.options.loop,
     '-kc '
   ], item, store, locale).then(() => {

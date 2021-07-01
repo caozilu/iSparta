@@ -1,5 +1,5 @@
 module.exports = {
-    "uploadTips": "将文件拖入或点击打开",
+    "uploadTips": "将文件拖入打开",
     "uploadRule": "只能上传PNG序列、APNG、WEBP、GIF这四种图片格式",
     //function
     "confrim":"确定",

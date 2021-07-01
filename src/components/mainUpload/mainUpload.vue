@@ -1,6 +1,6 @@
 <template>
   <section class="mod-upload" v-if="items.length == 0" >
-    <div class="upload-wrap" v-on:click="upFile">
+    <div class="upload-wrap">
     <el-upload
       class="upload-content"
       drag

@@ -31,9 +31,9 @@ Vue.use(Vuex)
 const defaultState = {
   language: 'zh-cn',
   options: {
-    'frameRate': 20,
+    'frameRate': 1,
     'loop': 0,
-    'outputSuffix': 'iSpt',
+    'outputSuffix': 'mgtv',
     'outputName': '',
     'outputFormat': ['APNG'],
     'floyd': {
