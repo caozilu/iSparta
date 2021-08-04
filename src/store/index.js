@@ -31,7 +31,7 @@ Vue.use(Vuex)
 const defaultState = {
   language: 'zh-cn',
   options: {
-    'frameRate': 1,
+    'frameRate': 20,
     'loop': 0,
     'outputSuffix': 'mgtv',
     'outputName': '',

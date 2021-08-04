@@ -14,9 +14,9 @@
         <!-- <el-input  size="mini"   v-model="delays[index]"></el-input> -->
       </div>
     </div>
-    <!-- <div class="fps-setting">
+    <div class="fps-setting">
         <div class="label">{{ $t('fps')}}</div><el-input v-model="rate" size="mini"></el-input><el-button @click="onResetRate" size="mini">{{ $t('apply')}}</el-button>
-    </div> -->
+      </div>
     <div slot="footer" class="dialog-footer">
       <el-button @click="onCancel">{{ $t('cancel')}}</el-button>
       <el-button type="primary" @click="onDelayConfirm">{{ $t('confrim')}}</el-button>
