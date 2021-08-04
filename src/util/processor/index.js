@@ -97,13 +97,13 @@ function apng2other (item, store, locale) {
 				)
         }))
     }
-    MtaH5.clickStat(item.basic.type + "-" + el)
+    // MtaH5.clickStat(item.basic.type + "-" + el)
   })
 	// copy tempdir file to output dir
   return Promise.all(funcArr).then(() => {
 		// delete tmp dir
     // return fs.remove(item.basic.tmpOutputDir)
-    MtaH5.clickStat('1')
+    // MtaH5.clickStat('1')
     store.dispatch('editProcess', {
       index: item.index,
       text: locale.convertSuccess + '！',
